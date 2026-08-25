@@ -2,7 +2,6 @@
 
 ![Logo SpecFlow](./assets/logo.png)
 
-
 ## 📋 Contexto
 
 O SpecFlow é um projeto acadêmico aplicado, desenvolvido em resposta a um problema real apresentado pela Vigilância em Saúde do Trabalhador (VISAT), vinculada à Secretaria de Saúde do Recife. A VISAT recebe constantemente demandas formais de órgãos de controle e articulação — como Ministério Público do Trabalho, Tribunal Regional do Trabalho, Conselhos de Saúde e Sindicatos — solicitando inspeções e pareceres técnicos, mas hoje esse controle é feito por processos administrativos gerais e planilhas internas, o que prejudica a rastreabilidade das demandas, o acompanhamento de prazos, a visualização da carga de trabalho da equipe e o retorno aos órgãos solicitantes e à sociedade. Para resolver isso, o SpecFlow propõe uma aplicação web para gestão e acompanhamento dessas demandas, com fluxo visual em Kanban, definição de responsáveis e prazos, anexos e histórico, além de indicadores gerenciais.
@@ -25,6 +24,14 @@ O SpecFlow é um projeto acadêmico aplicado, desenvolvido em resposta a um prob
 ### 🔹 Tela Inicial
 
 ### 🔹 Tela da principal funcionalidade
+
+### 🔹 Backlog
+
+![Backlog SpecFlow](./assets/backlog.png)
+
+### 🔹 Board
+
+![Board SpecFlow](./assets/board.png)
 
 ## 🔗 Diagrama de atividades do sistema
 

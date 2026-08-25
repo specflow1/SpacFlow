@@ -1,5 +1,7 @@
 # 🔎 SpecFlow
 
+![Logo SpecFlow](./assets/logo.png)
+
 ## 📋 Contexto
 
 O SpecFlow é um projeto acadêmico aplicado, desenvolvido em resposta a um problema real apresentado pela Vigilância em Saúde do Trabalhador (VISAT), vinculada à Secretaria de Saúde do Recife. A VISAT recebe constantemente demandas formais de órgãos de controle e articulação — como Ministério Público do Trabalho, Tribunal Regional do Trabalho, Conselhos de Saúde e Sindicatos — solicitando inspeções e pareceres técnicos, mas hoje esse controle é feito por processos administrativos gerais e planilhas internas, o que prejudica a rastreabilidade das demandas, o acompanhamento de prazos, a visualização da carga de trabalho da equipe e o retorno aos órgãos solicitantes e à sociedade. Para resolver isso, o SpecFlow propõe uma aplicação web para gestão e acompanhamento dessas demandas, com fluxo visual em Kanban, definição de responsáveis e prazos, anexos e histórico, além de indicadores gerenciais.
@@ -31,10 +33,10 @@ O SpecFlow é um projeto acadêmico aplicado, desenvolvido em resposta a um prob
 
 ## 👩‍💻 Equipe
 
-* Antonio Leite Sandes — als5@cesar.school
-* Arthur Cabral Tietzman — act2@cesar.school
-* Gabriel Salvador Pereira da Silva Santos — gspss@cesar.school
-* João Vitor Rodrigues — jvrsf@cesar.school
-* Matheus Figueiredo — mffm@gmail.com
-* Sérgio Bione de Almeida Bastos — sbab@cesar.school
-* Vitor Emmanuel Fernandes — velfg@cesar.school
+* Antonio Leite Sandes — Gestor — als5@cesar.school
+* Arthur Cabral Tietzman — Desenvolvedor — act2@cesar.school
+* Gabriel Salvador Pereira da Silva Santos — Execução e teste — gspss@cesar.school
+* João Vitor Rodrigues — Ideação/Pesquisador — jvrsf@cesar.school
+* Matheus Figueiredo — Gestor — mffm@gmail.com
+* Sérgio Bione de Almeida Bastos — Desenvolvedor — sbab@cesar.school
+* Vitor Emmanuel Fernandes — Execução e teste — velfg@cesar.school

@@ -1,4 +1,4 @@
-# 🔎 SpecFlow
+# 🔎 SpacFlow
 
 ![Logo SpecFlow](./assets/logo.png)
 

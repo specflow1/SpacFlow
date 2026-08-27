@@ -1,50 +1,187 @@
-# 🔎 SpacFlow
+# 🛡️ SpacFlow — VISAT Recife
 
-![Logo SpecFlow](./assets/logo.png)
+<div align="center">
+  <img src="./assets/logo.png" alt="SpacFlow Header Banner" width="100%" />
+</div>
 
-## 📋 Contexto
+<br />
 
-O SpacFlow é um projeto acadêmico aplicado, desenvolvido em resposta a um problema real apresentado pela Vigilância em Saúde do Trabalhador (VISAT), vinculada à Secretaria de Saúde do Recife. A VISAT recebe constantemente demandas formais de órgãos de controle e articulação — como Ministério Público do Trabalho, Tribunal Regional do Trabalho, Conselhos de Saúde e Sindicatos — solicitando inspeções e pareceres técnicos, mas hoje esse controle é feito por processos administrativos gerais e planilhas internas, o que prejudica a rastreabilidade das demandas, o acompanhamento de prazos, a visualização da carga de trabalho da equipe e o retorno aos órgãos solicitantes e à sociedade. Para resolver isso, o SpacFlow propõe uma aplicação web para gestão e acompanhamento dessas demandas, com fluxo visual em Kanban, definição de responsáveis e prazos, anexos e histórico, além de indicadores gerenciais.
+> **Plataforma de Governança, Rastreabilidade e Controle SLA de Fiscalizações em Saúde do Trabalhador**
 
-## ⚙️ Ferramentas tecnológicas
+| **Parâmetro** | **Detalhe do Projeto** |
+| :--- | :--- |
+| **Instituição Parceira** | Vigilância em Saúde do Trabalhador (VISAT) — Sec. de Saúde do Recife |
+| **Demandantes Externos** | MPT (Ministério Público do Trabalho), TRT, Sindicatos e Conselhos |
+| **Abordagem** | Design Thinking Coletivo + Framework Scrum |
 
-## 🔹 Funcionalidades
+> 🚀 **Central de Documentação do Projeto:**  
+> [![Google Sites](https://img.shields.io/badge/Documentação_Oficial-Google_Sites-4285F4?style=for-the-badge&logo=google)](https://sites.google.com/cesar.school/spacflow?usp=sharing)
 
-* Centralização de arquivos (PDFs, CSV e DOCX) para armazenamento e organização;
-* Filtro de busca para localizar um processo específico, facilitando o manuseio pelo usuário;
-* Gestão de prazos e priorização das demandas, com contagem de tempo e hierarquização de acordo com o que o cliente relatar na entrevista;
-* Cadastro por função dentro da VISAT, atribuindo funcionalidades de acordo com o cargo (para casos de múltiplos cargos);
-* Histórico de tudo que foi feito em cada demanda, registrando as atuações da equipe;
-* Mensagens padronizadas para envio aos outros órgãos, garantindo feedback sobre as requisições;
-* Cópias de segurança (backup), para evitar perda de dados;
-* Indicadores gerenciais, com painel em tempo real das demandas em andamento e relatório mensal indicando o que foi cumprido dentro do prazo e onde há necessidade de ajustes de organização ou sobrecarga de atividades.
+---
 
-## 📽️ Demonstração do projeto
+## 📌 Sumário Navegável
+* [1. Visão Geral & Impacto Institucional](#1-visão-geral--impacto-institucional)
+* [2. Diagnóstico Operacional: Antes vs. SpacFlow](#2-diagnóstico-operacional-antes-vs-spacflow)
+* [3. Engenharia de UX & Evidências de Pesquisa](#3-engenharia-de-ux--evidências-de-pesquisa)
+* [4. Mapeamento de Usuário (Persona & Jornada)](#4-mapeamento-de-usuário-persona--jornada)
+* [5. Priorização do Escopo (Matriz MoSCoW)](#5-priorização-do-escopo-matriz-moscow)
+* [6. Cronograma & Roadmap por Semanas](#6-cronograma--roadmap-por-semanas)
+* [7. Gestão Ágil & Governança Operacional](#7-gestão-ágil--governança-operacional)
+* [8. Corpo Técnico & Equipe do Projeto](#8-corpo-técnico--equipe-do-projeto)
+* [9. Arquitetura do Fluxo (Mermaid.js)](#9-arquitetura-do-fluxo-mermaidjs)
 
-### 🔹 Tela Inicial
+---
 
-### 🔹 Tela da principal funcionalidade
+## 1. Visão Geral & Impacto Institucional
 
-### 🔹 Backlog
+O **SpacFlow** é uma solução de engenharia de software desenvolvida para sanar a opacidade e a fragmentação no acompanhamento de requisições oficiais na **VISAT Recife**.
 
-![Backlog SpacFlow](./assets/backlog.png)
+A unidade opera sob constante demanda por pareceres técnicos e inspeções de campo. Sem um sistema centralizado, os processos tramitam via planilhas e e-mails isolados, gerando riscos de descumprimento de prazos judiciais e falta de visibilidade sobre a sobrecarga das equipes técnicas. O SpacFlow fornece trilha de auditoria e controle em tempo real do ciclo de vida das requisições.
 
-### 🔹 Board
+---
 
-![Board SpacFlow](./assets/board.png)
+## 2. Diagnóstico Operacional: Antes vs. SpacFlow
 
-## 🔗 Diagrama de atividades do sistema
+| Indicador / Processo | Gestão Tradicional (Planilhas / E-mails) | Solução SpacFlow |
+| :--- | :--- | :--- |
+| **Gestão de SLA Legal** | Controle manual de datas em células com alto risco de atraso em respostas ao MPT/TRT | Painel com contagem regressiva e alertas visuais automáticos de vencimento |
+| **Rastreabilidade** | Histórico disperso entre caixas de entrada e pastas de arquivos locais | Linha do tempo imutável com registro de todas as ações por fiscal |
+| **Carga de Trabalho** | Ausência de indicadores sobre a distribuição de solicitações na equipe | Visualização Kanban por inspetor e relatórios gerenciais de capacidade |
+| **Documentação** | Risco de perda de laudos, anexos e fotos colhidas em vistorias de campo | Repositório centralizado anexado à requisição (PDF, CSV, DOCX) |
 
-## ⚙️ Issues e bugs tracker
+---
 
-## 🚀 Status do Projeto
+## 3. Engenharia de UX & Evidências de Pesquisa
 
-## 👩‍💻 Equipe
+A concepção do produto não partiu de premissas abstratas, mas de uma fase de imersão metodológica rigorosa. Clique abaixo para consultar os artefatos de pesquisa expandidos:
 
-* Antonio Leite Sandes — Gestor — als5@cesar.school
-* Arthur Cabral Tietzman — Desenvolvedor — act2@cesar.school
-* Gabriel Salvador Pereira da Silva Santos — Execução e teste — gspss@cesar.school
-* João Vitor Rodrigues — Ideação/Pesquisador — jvrsf@cesar.school
-* Matheus Figueiredo — Gestor — mffm@gmail.com
-* Sérgio Bione de Almeida Bastos — Desenvolvedor — sbab@cesar.school
-* Vitor Emmanuel Fernandes — Execução e teste — velfg@cesar.school
+<details>
+  <summary><b>🧠 Clique para expandir os Detalhes da Matriz CSD (Certezas, Suposições e Dúvidas)</b></summary>
+  <br />
+  <ul>
+    <li><b>Certezas:</b> A VISAT recebe demandas de múltiplos órgãos (MPT, TRT, Sindicatos); não há processo unificado; existem prazos legais rígidos; o volume de demandas é significativo.</li>
+    <li><b>Suposições:</b> A equipe técnica está disposta a adotar o novo sistema; a principal causa dos atrasos é a falta de centralização e visibilidade (e não falta de pessoal).</li>
+    <li><b>Dúvidas:</b> Qual o tempo médio exato entre a recepção e a resposta? Quais órgãos teriam acesso direto à visualização do status?</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><b>📋 Clique para expandir a Estrutura da Entrevista Semiestruturada</b></summary>
+  <br />
+  <ul>
+    <li><b>Bloco 1 (Abertura):</b> Mapeamento da rotina diária na VISAT e tempo de atuação do servidor.</li>
+    <li><b>Bloco 2 (Entrada da Demanda):</b> Processo atual de recepção de ofícios do MPT/TRT e critérios de triagem.</li>
+    <li><b>Bloco 3 (Prazos e SLA):</b> Mecanismos de acompanhamento de vencimento e ocorrências de atrasos passados.</li>
+    <li><b>Bloco 4 (Rastreabilidade):</b> Tempo necessário para resgatar o histórico de um processo antigo cobrado externamente.</li>
+    <li><b>Bloco 5 & 6 (Ferramentas e Cenários Reais):</b> Limitações das planilhas informais e relatos de casos críticos.</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><b>💡 Clique para expandir a Dinâmica de Brainwriting & Ideação</b></summary>
+  <br />
+  <p>Sessão de ideação assíncrona da equipe focada em levantamento de alternativas sem viés individual. Foram priorizados: painel visual por status, gestão de alertas de SLA, histórico imutável por demanda e geração automática de respostas padronizadas.</p>
+</details>
+
+---
+
+## 4. Mapeamento de Usuário (Persona & Jornada)
+
+### 👤 Persona Representativa
+* **Ana Beatriz Souza (34 anos)** — *Técnica de Vigilância Sanitária*.
+* **Contexto:** Necessita responder a órgãos externos dentro do prazo legal enquanto realiza fiscalizações externas.
+* **Principal Dor:** Desperdiçar tempo reorganizando prioridades em planilhas informais e cobrando retornos por telefone.
+
+### 🛣️ Jornada do Processo (Mariana Santos — Inspetora)
+1. **Chegada:** Notificação de nova solicitação externa sem contexto consolidado.
+2. **Triagem:** Análise manual e verificação de antecedentes em pastas físicas/digitais.
+3. **Atribuição:** Encaminhamento para a agenda do inspetor responsável.
+4. **Campo & Laudo:** Realização da visita, coleta de evidências e redação técnica.
+5. **Encerramento:** Envio formal do parecer ao órgão solicitante e arquivamento.
+
+---
+
+## 5. Priorização do Escopo (Matriz MoSCoW)
+
+| Categoria | Funcionalidades Mapeadas no SpacFlow |
+| :--- | :--- |
+| **Must Have** *(Indispensável)* | Centralização de documentos, filtros de busca por processo, controle de SLA/prazos e perfis por função. |
+| **Should Have** *(Importante)* | Histórico de tramitação por demanda, modelos de resposta padrão e rotina de cópias de segurança. |
+| **Could Have** *(Desejável)* | Painel com indicadores gerenciais avançados e alertas de sobrecarga de trabalho. |
+| **Won't Have** *(Fora do Escopo 1.0)* | Integração nativa automatizada com sistemas legados de órgãos externos. |
+
+---
+
+## 6. Cronograma & Roadmap por Semanas
+
+O projeto é executado através de uma abordagem incremental dividida em 7 semanas de desenvolvimento:
+
+| Semana / Etapa | Foco Principal | Entregas Esperadas | Status |
+| :---: | :--- | :--- | :---: |
+| **Semana 01**<br>*(Imersão)* | Entendimento do problema, pesquisa inicial e organização do grupo | Entregáveis para apresentação inicial | `Concluído` |
+| **Semana 02**<br>*(Validação)* | Contato com a VISAT, validação de hipóteses e entendimento do processo | Hipóteses validadas e dúvidas respondidas | `Concluído` |
+| **Semana 03**<br>*(Requisitos)* | Levantamento de requisitos, histórias de usuário, fluxos e priorização | Backlog priorizado e especificação inicial | `Concluído` |
+| **Semana 04**<br>*(UX / UI)* | Construção de wireframes, protótipos e fluxo de navegação | Protótipo validado | `Pendente` |
+| **Semana 05**<br>*(Desenvolvimento)* | Banco de dados (PostgreSQL), backend, frontend e integração | Incrementos funcionais do sistema | `Pendente` |
+| **Semana 06**<br>*(Testes)* | Testes de software, correções de bugs e validações | Versão estável do sistema | `Pendente` |
+| **Semana 07**<br>*(Entrega Final)* | Consolidação do sistema, documentação e apresentação de resultados | Entrega final do projeto | `Pendente` |
+
+> *Nota: O cronograma é flexível e pode sofrer ajustes conforme orientações do orientador e alinhamentos das entregas semanais.*
+
+---
+
+## 7. Gestão Ágil & Governança Operacional
+
+Para manter a transparência das etapas e evitar a poluição visual na rolagem da página, os artefatos de acompanhamento da equipe estão disponíveis nos painéis expansíveis abaixo:
+
+<details>
+  <summary><b>📊 Clique para expandir a Central de Backlog Refinado</b></summary>
+  <br />
+  <p><i>Mapeamento de Épicos, Histórias de Usuário, níveis de prioridade e rastreamento de entregas por integrante.</i></p>
+  <div align="center">
+    <img src="./assets/backlog.png" alt="Visão Geral do Backlog de Requisitos" width="95%" />
+  </div>
+</details>
+
+<br />
+
+<details>
+  <summary><b>🎯 Clique para expandir o Quadro Kanban de Execução (Board)</b></summary>
+  <br />
+  <p><i>Fluxo de tarefas ativas divididas em tempo real entre Ideação, Design, Desenvolvimento, Code Review e Homologação.</i></p>
+  <div align="center">
+    <img src="./assets/board.png" alt="Board Kanban de Acompanhamento das Sprints" width="95%" />
+  </div>
+</details>
+
+---
+
+## 8. Corpo Técnico & Equipe do Projeto
+
+| Avatar | Integrante | Função no Projeto | E-mail | Perfil |
+| :---: | :--- | :--- | :--- | :---: |
+| <img src="https://ui-avatars.com/api/?name=Antonio+Sandes&background=0D8ABC&color=fff" width="42"> | **Antonio Leite Sandes** | Gestor de Projeto | `als5@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Arthur+Tietzman&background=6f42c1&color=fff" width="42"> | **Arthur Cabral Tietzman** | Desenvolvedor | `act2@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Gabriel+Salvador&background=28a745&color=fff" width="42"> | **Gabriel Salvador P. da Silva Santos** | Execução e Testes | `gspss@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Joao+Rodrigues&background=fd7e14&color=fff" width="42"> | **João Vitor Rodrigues** | Ideação e Pesquisa | `jvrsf@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Matheus+Figueiredo&background=20c997&color=fff" width="42"> | **Matheus Figueiredo** | Gestor do Produto (PO) | `mffm@gmail.com` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Sergio+Bione&background=17a2b8&color=fff" width="42"> | **Sérgio Bione de Almeida Bastos** | Desenvolvedor | `sbab@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+| <img src="https://ui-avatars.com/api/?name=Vitor+Emmanuel&background=e83e8c&color=fff" width="42"> | **Vitor Emmanuel Fernandes** | Execução e Testes | `velfg@cesar.school` | [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com) |
+
+---
+
+## 9. Arquitetura do Fluxo (Mermaid.js)
+
+```mermaid
+graph LR
+    A["Órgão Demandante (MPT / TRT)"] -->|"Ofício / Demanda"| B["SpacFlow: Entrada"]
+    B --> C{"Triagem & SLA"}
+    C -->|"Atribuição"| D["Inspetor Técnico"]
+    D -->|"Inspeção & Laudo"| E["Emissão de Parecer"]
+    E --> F{"Aprovação da Gestão"}
+    F -->|"Aprovado"| G["Retorno ao Órgão Solicitante"]
+    F -->|"Ajuste"| D
